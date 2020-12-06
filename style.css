@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.content-wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.menu-bar {
+    margin-top: 50px;
+    width: 100%;
+    padding: 0 50px
+}
+
+.logo {
+    float: left;
+    width: 100px;
+}
+
+.menu {
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li a {
+    color: hsl(0, 0%, 100%);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.intro-wrapper {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.illustration-intro {
+    width: 70%;
+    display: block;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.intro-title {
+    width: 90%;
+    text-align: center;
+    margin: 30px 0;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+.intro-description {
+    width: 70%;
+    text-align: center;
+    margin: 30px 0;
+    letter-spacing: 0.5px;
+}
+
+.intro-button {
+    background-color: hsl(198, 60%, 50%);
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.intro-button:hover{
+    background-color:hsl(176, 68%, 64%);
+}
+.service1-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: 100px auto;
+}
+
+.service-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-icon {
+    height: 60px;
+    margin: 30px 0;
+}
+
+.service-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.service-description {
+    text-align: center;
+    font-size: 10px;
+}
+
+.service2-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center
+}
+
+.productive-img {
+    width: 500px;
+}
+
+.illustration-productive {
+    width: 100%;
+}
+.productive {
+    width: 50%;
+}
+
+.productive-title {
+    width: 80%;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.productive-description{
+    margin-bottom: 10px;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+}
+
+.productive a {
+    color: hsl(176, 68%, 64%);
+    font-weight: 600;
+    font-size: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding-bottom: 3px;
+}
+
+.fa-arrow-right {
+    font-size: 7px;
+    padding: 2px;
+    border-radius: 50%;
+    background: hsl(176, 68%, 64%);
+    color: hsl(218, 28%, 13%);
+}
+
+.service2-button:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+
+.signup-wrapper {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(217, 28%, 15%);
+    padding: 30px 30px 30px 0px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.signup-title {
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signup-description {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.signup-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.signup-email {
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 25px;
+    padding-left: 25px;
+    color: 	#A9A9A9;
+}
+
+.signup-button {
+    background-color: hsl(198, 60%, 50%);
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.signup-botton:hover {
+    background-color: hsl(176, 68%, 64%);
+}
+
+footer {
+    background: hsl(216, 53%, 9%);
+}
+
+.footer-mainwraper {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 75px 50px;
+}
+
+.footer-logo {
+    width: 80px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.location {
+    width: 30%;
+}
+
+
+.footer-phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.footer-phone p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.footer-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.footer-email p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.contact-icon {
+    height: 15px;
+}
+
+.footer-links {
+    display: contents;
+    width: 20%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-link {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 2.5;
+}
+
+.fa-facebook-f {
+    color: hsl(0, 0%, 100%);
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.fa-twitter {
+    color: hsl(0, 0%, 100%);
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.fa-instagram {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+
+@media screen and (max-width: 900px){
+    .intro-wrapper {
+        width: 500px;
+    }
+    
+    .intro-title {
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .intro-description {
+        font-size: 15px;
+        margin-top: 0;
+        width: 90%;
+    }
+    
+    .intro-button {
+        font-size: 13px;
+        width: 130px;
+        height: 30px;
+    }
+
+    
+    .service1-wrapper {
+        width: 100%;
+    }
+    
+    .service-content {
+        margin-bottom: 20px
+    }
+    .service-icon {
+        margin: 15px 0;
+    }
+    
+    .service-title {
+        font-size: 18px;
+    }
+    
+    .productive-img {
+        width: 300px;
+    }
+    
+    .productive-title {
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .productive-description {
+        font-size: 15px;
+    }
+    
+    .signup-wrapper {
+        width: 80%;
+    }
+    
+    .signup-title {
+        font-size: 20px;
+    }
+    
+    .signup-description {
+        width: 100%;
+    }
+    
+    .signup-email {
+        width: 300px;
+        height: 30px;
+        font-size: 12px;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .signup-button {
+        width: 300px;
+        height: 30px;
+        font-size: 12px;
+    }
+    
+    .footer-mainwraper {
+        padding: 30px 0;
+        width: 90%;
+    }
+    .footer-item {
+        padding: 5px;
+    }
+    
+    .location-description {
+        font-size: 12px;
+    }
+    
+    .contact p {
+        font-size: 12px;
+    }
+    
+    .contact-icon {
+        height: 12px;
+    }
+    
+    .site-link {
+        font-size: 12px;
+    }
+    
+    .social-icon {
+        font-size: 12px;
+    }
+    
+    .fa-facebook-f {
+        margin-right: 10px
+    }
+    
+    .fa-twitter {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .menu-bar {
+        width: 100%;
+        padding: 5%;
+    }
+    .logo {
+        width: 80px;
+    }
+    
+    .menu li a {
+        font-size: 12px;
+        margin: 0 7px;
+        text-align: left;
+    }
+
+    .intro-wrapper {
+        width: 100%;
+    }
+    
+    .illustration-intro {
+        width: 80%;
+    }
+    
+    .service-content {
+        width: 80%;
+    }
+    
+    .service2-wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .productive {
+        width: 80%;
+    }
+    
+    .productive-img {
+        width: 250px;
+    }
+    
+    .productive-description {
+        font-size: 12px;
+    }
+    
+    .signup-wrapper {
+        justify-content: center;
+        width: 80%;
+        padding: 10px;
+    }
+    
+    .signup-email {
+        width: 250px;
+    }
+    
+    .signup-button {
+        width: 250px;
+    }
+    
+    .footer-wrapper {
+        flex-wrap: wrap;
+    }
+    
+    .footer-item {
+        width: 100%;
+    }
+    
+    .footer-phone {
+        justify-content: flex-start;
+    }
+    
+    .footer-email {
+        justify-content: flex-start;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .social-icon {
+        text-align: center;
+        margin-top: 30px
+    }
+}
